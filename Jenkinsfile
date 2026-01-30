@@ -1,10 +1,8 @@
 pipeline {
     agent any
 
-    tools {
-        // Make sure JDK is configured in Jenkins (Global Tool Configuration)
-        jdk 'JDK21'
-    }
+    tools { jdk 'JAVA' }
+
 
     stages {
         stage('Checkout') {
