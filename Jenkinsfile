@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         // Change this to your repo URL
-        REPO_URL = 'https://github.com/<your-username>/<your-repo>.git'
+        REPO_URL = 'https://github.com/Puneeth1079/CDDJenkins.git'
         // If your default branch is main, keep 'main'. Otherwise use 'master' or your branch name.
         BRANCH = 'main'
     }
